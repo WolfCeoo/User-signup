@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+#sign-up-form {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color: #ffffffc4;
+    border-radius: 5%;
+    
+}
+#sign-in {
+    width: 70%;
+    /* border: 2px solid black; */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    
+    /* justify-content: space-evenly;  */
+    
+    
+}
+#sign-in-container{
+    width: 70%;
+    height: 45vh;
+    /* background-color: gray; */
+    margin: auto;
+}
+#sign-in .logo {
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.email-field {
+    text-align: center;
+}
+.email-field label{
+    display: block;
+    margin-bottom: 5px;
+    color: grey;
+}
+.email-field #mail-field {
+    margin-right: 10px;
+    width: 150px;
+    height: 20px;
+  
+}
+.password-field{
+    text-align: center;
+}
+.password-field label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: grey;
+}
+#forgot-password p{
+   color: gray;
+   margin-top: 15px;
+   text-align: center;
+   margin-bottom: 15px;
+}
+#forgot-password a:link, a:visited{
+    color: gray;
+    text-decoration: none;
+}
+
+#sign-in-button {
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid burlywood;
+    background-color: burlywood;
+    border-radius: 10px;
+    text-align: center;
+    width: 35%;
+    line-height: 40px;
+    height: 40px;
+}
+#sign-in-button:hover{
+    background-color: blueviolet;
+    color: green;
+}
+#sign-in-button a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+#sign-in-button a:link{
+    text-decoration: none;
+    color: #fff;
+}
+
+#sign-up{
+    height: 100%;
+    width: 30%;
+    /* height: 90vh; */
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin: auto;
+}
+#sign-up .no-account-text-container{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+   
+}
+#sign-up .no-account-text-container p{
+    color: #fff;
+    font-weight: bolder;
+   
+}
+  
+#sign-up .sign-up-btn{
+    display: block;
+    position: absolute;
+    top: 70vh;
+    color: #fff;
+    margin: auto;
+    width: 80px;
+    border: 2px solid white;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#sign-up .sign-up-btn:hover{
+    background-color: burlywood;
+    color: #000;
+    border: 2px solid #fff;
+}
+#sign-up a:link, a:visited{
+    color: #fff;
+   text-decoration: none;
+}
+
+input:focus{
+    outline: none;
+}
+
